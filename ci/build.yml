@@ -19,6 +19,5 @@ run:
   - |
     cd pal-tracker
     chmod +x gradlew
-    ls -la
     ./gradlew build
     cp build/libs/pal-tracker.jar ../build-output
